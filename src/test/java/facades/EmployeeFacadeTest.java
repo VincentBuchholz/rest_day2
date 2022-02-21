@@ -27,6 +27,7 @@ EmployeeFacade ef = new EmployeeFacade();
 
     @Test
     void getEmpById() {
+        System.out.println("testing");
         assertEquals("Andreas",ef.getEmpById(1).getName());
     }
 
